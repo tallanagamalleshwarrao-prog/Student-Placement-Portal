@@ -1,0 +1,14 @@
+- [x] Preserve existing student, recruiter, and admin workflows
+- [x] Add requested roles and secure approval rules
+- [x] Add role-aware registration, approval and dashboard navigation
+- [x] Verify public signup, restricted access, super-admin pages, nested navigation, build, and database security checks
+- [x] Return verified registrations to sign-in
+- [x] Verify account profile persistence: existing account details are stored; no missing profile or role rows in this backend
+- [x] Diagnose super-admin sign-in: designated confirmed account has an email identity and password hash; use password recovery if the password is unknown
+- [x] Provide a password recovery form and callback handling for new links; older backend-issued links may need an updated allowed redirect URL
+- [x] Grant Super Admin access to the existing confirmed manikanta0615@gmail.com account
+- [ ] Send a usable public password setup link — blocked until the portal is published or a reachable auth return URL is configured; the local development link was sent but is only usable on localhost
+- [x] Prepare Vercel server output and direct Google authentication with an independent Supabase project without changing the interface.
+- [x] Document external database setup, Google sign-in, Vercel configuration, and migration limitations.
+- [ ] Transfer existing accounts and placement records — blocked until an authorized export of the managed backend is available; see deployment guide.
+- [ ] Configure independent Supabase and Google credentials and deploy on Vercel — blocked on user-owned projects, credentials, and deployment access.
